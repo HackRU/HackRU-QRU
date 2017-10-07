@@ -45,7 +45,7 @@ public class QRGenerator {
 			Graphics2D graphics = (Graphics2D) image.getGraphics();
 			graphics.setColor(Color.WHITE);
 			graphics.fillRect(0, 0, qrWidth, qrWidth);
-			graphics.setColor(Color.decode("#4BCF7E"));
+			graphics.setColor(Color.decode("#7B4397"));
  
 			for (int i = 0; i < qrWidth; i++) {
 				for (int j = 0; j < qrWidth; j++) {

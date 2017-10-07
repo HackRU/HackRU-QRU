@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import qru.data.Person;
 import qru.internal.Utilities;
@@ -21,11 +22,12 @@ import qru.model.PersonPayload;
  * @author Varun Shah {@literal varun.shah@rutgers.edu}
  */
 @RestController
+@CrossOrigin
 public class QRUController {
 
 	private final Utilities utilities = new Utilities();
 	
-	private static final boolean restartingServer = true;
+	private static final boolean restartingServer = false;
 
 	@PostConstruct
 	public void init(){

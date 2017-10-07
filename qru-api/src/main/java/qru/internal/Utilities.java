@@ -109,7 +109,7 @@ public class Utilities {
 		
 		database = new ArrayList<Person>();
 		MongoClient mongo = new MongoClient(new MongoClientURI(dbUrl));
-		MongoDatabase mongoDatabase = mongo.getDatabase("hackrusp17");
+		MongoDatabase mongoDatabase = mongo.getDatabase("camlot-db");
 		MongoCollection<Document> collection = mongoDatabase.getCollection("users");
 		for(Document user : collection.find()){
 			Document localData = (Document) user.get("local");
@@ -129,7 +129,7 @@ public class Utilities {
 	public void refreshDB(){
 		
 		MongoClient mongo = new MongoClient(new MongoClientURI(dbUrl));
-		MongoDatabase mongoDatabase = mongo.getDatabase("hackrusp17");
+		MongoDatabase mongoDatabase = mongo.getDatabase("camlot-db");
 		MongoCollection<Document> collection = mongoDatabase.getCollection("users");
 		for(Document user : collection.find()){
 			Document localData = (Document) user.get("local");
@@ -152,7 +152,7 @@ public class Utilities {
 		
 		try{
 			MongoClient mongo = new MongoClient(new MongoClientURI(dbUrl));
-			MongoDatabase mongoDatabase = mongo.getDatabase("hackrusp17");
+			MongoDatabase mongoDatabase = mongo.getDatabase("camlot-db");
 			MongoCollection<Document> collection = mongoDatabase.getCollection("users");
 			collection.updateOne(eq("local.email", email), 
 					new Document("$set", new Document("registration_status", 5)));
@@ -180,6 +180,7 @@ public class Utilities {
 			input = new FileInputStream("config.properties");
 			prop.load(input);
 			dbUrl = prop.getProperty("dbUrl");
+			System.out.println(dbUrl);
 		} catch(IOException e){
 			e.printStackTrace();
 		} finally {
