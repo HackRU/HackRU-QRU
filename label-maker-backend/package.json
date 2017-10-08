@@ -1,0 +1,13 @@
+{
+  "name": "hackru-labeller",
+  "version": "0.0.0",
+  "description": "HackRU Label Printer Web App",
+  "main": "app.js",
+  "author": "Team HackRU",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+    "dymo": "0.0.2",
+    "csrf": "3.0.6"
+  }
+}
