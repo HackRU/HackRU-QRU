@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.1",
-    "dymo": "0.0.2",
+    "dymo": "hemangandhi/dymo",
     "csrf": "3.0.6"
   }
 }
