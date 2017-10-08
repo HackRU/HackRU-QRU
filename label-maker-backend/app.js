@@ -46,7 +46,7 @@ const setUpAuth = function(secret){
         if(!csrf.verify(secret, req.query.csrf)){
             res.send(403, "Invalid request");
         }else{
-            getQRImage(req.email, () => {
+            getQRImage(req.query.email, () => {
                 const qr = req.body.qrimage;
                 const printerArgs = {
                     printer: config.printerName,
