@@ -74,3 +74,4 @@ $RECYCLE.BIN/
 
 #node because
 node_modules/
+config.js
