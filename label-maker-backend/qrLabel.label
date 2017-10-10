@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DieCutLabel Version="8.0" Units="twips">
+  <PaperOrientation>Landscape</PaperOrientation>
+  <Id>ReturnAddress</Id>
+  <PaperName>30330 Return Address</PaperName>
+  <DrawCommands>
+    <RoundRectangle X="0" Y="0" Width="1080" Height="2880" Rx="180" Ry="180"/>
+  </DrawCommands>
+  <ObjectInfo>
+    <TextObject>
+      <Name>TEXT</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255"/>
+      <LinkedObjectName/>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>False</IsVariable>
+      <HorizontalAlignment>Left</HorizontalAlignment>
+      <VerticalAlignment>Middle</VerticalAlignment>
+      <TextFitMode>ShrinkToFit</TextFitMode>
+      <UseFullFontHeight>True</UseFullFontHeight>
+      <Verticalized>False</Verticalized>
+      <StyledText>
+        <Element>
+          <String>Steve</String>
+          <Attributes>
+            <Font Family="Helvetica" Size="9" Bold="False" Italic="False" Underline="False" Strikeout="False"/>
+            <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+          </Attributes>
+        </Element>
+      </StyledText>
+    </TextObject>
+    <Bounds X="1265.181" Y="62.14305" Width="871.6568" Height="272.4529"/>
+  </ObjectInfo>
+  <ObjectInfo>
+    <TextObject>
+      <Name>TEXT_2</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255"/>
+      <LinkedObjectName/>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>False</IsVariable>
+      <HorizontalAlignment>Left</HorizontalAlignment>
+      <VerticalAlignment>Middle</VerticalAlignment>
+      <TextFitMode>ShrinkToFit</TextFitMode>
+      <UseFullFontHeight>True</UseFullFontHeight>
+      <Verticalized>False</Verticalized>
+      <StyledText>
+        <Element>
+          <String>Hsu</String>
+          <Attributes>
+            <Font Family="Helvetica" Size="11" Bold="False" Italic="False" Underline="False" Strikeout="False"/>
+            <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+          </Attributes>
+        </Element>
+      </StyledText>
+    </TextObject>
+    <Bounds X="1271.919" Y="349.2391" Width="1028.775" Height="272.4529"/>
+  </ObjectInfo>
+  <ObjectInfo>
+    <ImageObject>
+      <Name>GRAPHIC_1</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255"/>
+      <LinkedObjectName/>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>False</IsVariable>
+      <Image>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</Image>
+      <ScaleMode>Uniform</ScaleMode>
+      <BorderWidth>0</BorderWidth>
+      <BorderColor Alpha="255" Red="0" Green="0" Blue="0"/>
+      <HorizontalAlignment>Center</HorizontalAlignment>
+      <VerticalAlignment>Center</VerticalAlignment>
+    </ImageObject>
+    <Bounds X="326.4" Y="57.59995" Width="951.2373" Height="940.8"/>
+  </ObjectInfo>
+  <ObjectInfo>
+    <TextObject>
+      <Name>TEXT_1</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255"/>
+      <LinkedObjectName/>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>False</IsVariable>
+      <HorizontalAlignment>Left</HorizontalAlignment>
+      <VerticalAlignment>Middle</VerticalAlignment>
+      <TextFitMode>AlwaysFit</TextFitMode>
+      <UseFullFontHeight>True</UseFullFontHeight>
+      <Verticalized>False</Verticalized>
+      <StyledText>
+        <Element>
+          <String>triangular.pyramid@gmail.com</String>
+          <Attributes>
+            <Font Family="Helvetica" Size="14" Bold="False" Italic="False" Underline="False" Strikeout="False"/>
+            <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+          </Attributes>
+        </Element>
+      </StyledText>
+    </TextObject>
+    <Bounds X="1255.601" Y="702.9877" Width="1537.999" Height="272.4529"/>
+  </ObjectInfo>
+</DieCutLabel>

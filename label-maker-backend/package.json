@@ -6,8 +6,10 @@
   "author": "Team HackRU",
   "license": "MIT",
   "dependencies": {
+    "csrf": "3.0.6",
     "express": "^4.14.1",
-    "dymo": "hemangandhi/dymo",
-    "csrf": "3.0.6"
+    "request": "2.83.0",
+    "xml-js": "1.5.1",
+    "node-osascript": "2.0.0"
   }
 }

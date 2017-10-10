@@ -1,10 +1,14 @@
-import urllib.request as req
+#import urllib.request as req
+import urllib2 as req
 
 authed = req.urlopen('http://localhost:8080/auth?pass=SteveWTF')
 
-while authed.status == 200:
+if authed.getcode() == 200:
     csrf = authed.read().decode('utf-8')
-    authed = req.urlopen('http://localhost:8080/print?csrf={}&first_name=Mike&last_name=Swift&email=swift@mlh.io'.format(csrf))
+    try:
+        authed = req.urlopen('http://localhost:8080/print?csrf={}&first_name=Steve&last_name=Hsu&email=triangular.pyramid@gmail.com'.format(csrf))
+    except req.HttpError as e:
+        print e
 
-print(authed.status)
+print(authed.getcode())
 print(authed.read())

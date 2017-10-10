@@ -1,5 +1,0 @@
-module.exports = {
-    password: "Change me",
-    printerName: "Hi there label maker",
-    labelFileName: "That stuff you save from the GUI with the format"
-}
