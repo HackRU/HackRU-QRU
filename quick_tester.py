@@ -7,7 +7,7 @@ if authed.getcode() == 200:
     csrf = authed.read().decode('utf-8')
     try:
         authed = req.urlopen('http://localhost:8080/print?csrf={}&first_name=Steve&last_name=Hsu&email=triangular.pyramid@gmail.com'.format(csrf))
-    except req.HttpError as e:
+    except e:
         print e
 
 print(authed.getcode())
