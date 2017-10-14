@@ -10,7 +10,7 @@ const app = express();
 const port = 8080;
 
 const getQRImage = function getQRImageData(req,res,next){
-  var url = 'http://ec2-54-186-192-209.us-west-2.compute.amazonaws.com:8080/images/'+req.query.email+'.png';
+  var url = 'http://ec2-54-186-192-209.us-west-2.compute.amazonaws.com:8080/viewqr?email='+req.query.email;
 
   var r = request.defaults({encoding:null});
   r.get(url,(err,response,body)=>{
