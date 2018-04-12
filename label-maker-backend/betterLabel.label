@@ -1,0 +1,89 @@
+<DieCutLabel Units="twips" Version="8.0">
+	<PaperOrientation>Landscape</PaperOrientation>
+	<Id>ReturnAddress</Id>
+	<IsOutlined>false</IsOutlined>
+	<PaperName>30330 Return Address</PaperName>
+	<DrawCommands>
+		<RoundRectangle Height="2880" Rx="180" Ry="180" Width="1080" X="0" Y="0" />
+	</DrawCommands>
+	<ObjectInfo>
+		<TextObject>
+			<Name>TEXT</Name>
+			<ForeColor Alpha="255" Blue="0" Green="0" Red="0" />
+			<BackColor Alpha="0" Blue="255" Green="255" Red="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<HorizontalAlignment>Left</HorizontalAlignment>
+			<VerticalAlignment>Top</VerticalAlignment>
+			<TextFitMode>ShrinkToFit</TextFitMode>
+			<UseFullFontHeight>True</UseFullFontHeight>
+			<Verticalized>False</Verticalized>
+			<StyledText>
+				<Element>
+					<String xml:space="preserve">Billy Bob</String>
+					<Attributes>
+						<Font Bold="False" Family="Arial" Italic="False" Size="8" Strikeout="False" Underline="False" />
+						<ForeColor Alpha="255" Blue="0" Green="0" HueScale="100" Red="0" />
+					</Attributes>
+				</Element>
+			</StyledText>
+		</TextObject>
+		<Bounds Height="193.170731707316" Width="2156.75609756097" X="326" Y="114.878048780488" />
+	</ObjectInfo>
+	<ObjectInfo>
+		<BarcodeObject>
+			<Name>BARCODE</Name>
+			<ForeColor Alpha="255" Blue="0" Green="0" Red="0" />
+			<BackColor Alpha="0" Blue="255" Green="255" Red="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<Text>wtf</Text>
+			<Type>QRCode</Type>
+			<Size>Medium</Size>
+			<TextPosition>None</TextPosition>
+			<TextFont Bold="False" Family="Arial" Italic="False" Size="8" Strikeout="False" Underline="False" />
+			<CheckSumFont Bold="False" Family="Arial" Italic="False" Size="8" Strikeout="False" Underline="False" />
+			<TextEmbedding>None</TextEmbedding>
+			<ECLevel>0</ECLevel>
+			<HorizontalAlignment>Center</HorizontalAlignment>
+			<QuietZonesPadding Bottom="0" Left="0" Right="0" Top="0" />
+		</BarcodeObject>
+		<Bounds Height="485.853658536585" Width="746.024390243898" X="1912.34146341464" Y="512.146341463415" />
+	</ObjectInfo>
+	<ObjectInfo>
+		<TextObject>
+			<Name>TEXT_1</Name>
+			<ForeColor Alpha="255" Blue="0" Green="0" Red="0" />
+			<BackColor Alpha="0" Blue="255" Green="255" Red="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<HorizontalAlignment>Left</HorizontalAlignment>
+			<VerticalAlignment>Top</VerticalAlignment>
+			<TextFitMode>ShrinkToFit</TextFitMode>
+			<UseFullFontHeight>True</UseFullFontHeight>
+			<Verticalized>False</Verticalized>
+			<StyledText>
+				<Element>
+					<String xml:space="preserve">hehehe xd</String>
+					<Attributes>
+						<Font Bold="False" Family="Arial" Italic="False" Size="8" Strikeout="False" Underline="False" />
+						<ForeColor Alpha="255" Blue="0" Green="0" HueScale="100" Red="0" />
+					</Attributes>
+				</Element>
+			</StyledText>
+		</TextObject>
+		<Bounds Height="204.878048780486" Width="1460.17073170731" X="326" Y="588.243902439025" />
+	</ObjectInfo>
+</DieCutLabel>
