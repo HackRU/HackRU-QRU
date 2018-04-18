@@ -24,7 +24,7 @@
 			<Verticalized>False</Verticalized>
 			<StyledText>
 				<Element>
-					<String xml:space="preserve">Billy Bob</String>
+					<String xml:space="preserve">favicon.ico</String>
 					<Attributes>
 						<Font Bold="False" Family="Arial" Italic="False" Size="8" Strikeout="False" Underline="False" />
 						<ForeColor Alpha="255" Blue="0" Green="0" HueScale="100" Red="0" />
@@ -32,31 +32,7 @@
 				</Element>
 			</StyledText>
 		</TextObject>
-		<Bounds Height="193.170731707316" Width="2156.75609756097" X="326" Y="114.878048780488" />
-	</ObjectInfo>
-	<ObjectInfo>
-		<BarcodeObject>
-			<Name>BARCODE</Name>
-			<ForeColor Alpha="255" Blue="0" Green="0" Red="0" />
-			<BackColor Alpha="0" Blue="255" Green="255" Red="255" />
-			<LinkedObjectName />
-			<Rotation>Rotation0</Rotation>
-			<IsMirrored>False</IsMirrored>
-			<IsVariable>False</IsVariable>
-			<GroupID>-1</GroupID>
-			<IsOutlined>False</IsOutlined>
-			<Text>wtf</Text>
-			<Type>QRCode</Type>
-			<Size>Medium</Size>
-			<TextPosition>None</TextPosition>
-			<TextFont Bold="False" Family="Arial" Italic="False" Size="8" Strikeout="False" Underline="False" />
-			<CheckSumFont Bold="False" Family="Arial" Italic="False" Size="8" Strikeout="False" Underline="False" />
-			<TextEmbedding>None</TextEmbedding>
-			<ECLevel>0</ECLevel>
-			<HorizontalAlignment>Center</HorizontalAlignment>
-			<QuietZonesPadding Bottom="0" Left="0" Right="0" Top="0" />
-		</BarcodeObject>
-		<Bounds Height="485.853658536585" Width="746.024390243898" X="1912.34146341464" Y="512.146341463415" />
+		<Bounds Height="193.170731707316" Width="2156.75609756097" X="326" Y="86.9168837319441" />
 	</ObjectInfo>
 	<ObjectInfo>
 		<TextObject>
@@ -76,7 +52,7 @@
 			<Verticalized>False</Verticalized>
 			<StyledText>
 				<Element>
-					<String xml:space="preserve">hehehe xd</String>
+					<String xml:space="preserve">favicon.ico</String>
 					<Attributes>
 						<Font Bold="False" Family="Arial" Italic="False" Size="8" Strikeout="False" Underline="False" />
 						<ForeColor Alpha="255" Blue="0" Green="0" HueScale="100" Red="0" />
@@ -85,5 +61,25 @@
 			</StyledText>
 		</TextObject>
 		<Bounds Height="204.878048780486" Width="1460.17073170731" X="326" Y="588.243902439025" />
+	</ObjectInfo>
+	<ObjectInfo>
+		<ImageObject>
+			<Name>GRAPHIC</Name>
+			<ForeColor Alpha="255" Blue="0" Green="0" Red="0" />
+			<BackColor Alpha="0" Blue="255" Green="255" Red="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<Image>iVBORw0KGgoAAAANSUhEUgAAASIAAAEiCAIAAADS3EjhAAAEmklEQVR4nO3dQW4bMRAAwSjIv/L2vGxzzYkIQLeHlKrultZeNHjwYPh6nucHUPo5/QDw/mQGOZlBTmaQkxnkZAY5mUFOZpCTGeRkBjmZQU5mkJMZ5GQGOZlBTmaQkxnkZAY5mUFOZpCTGeRkBjmZQU5mkJMZ5GQGOZlBTmaQkxnkZAY5mUFOZpCTGeRkBjmZQU5mkJMZ5GQGOZlB7tfUF79ef6a+OvI8v6cf4Yt5R1/FaQY5mUFOZpCTGeRkBjmZQU5mkJMZ5GQGubEpkLUzJyrebypih3f0/5xmkJMZ5GQGOZlBTmaQkxnkZAY5mUFOZpA7dApkrftP//tNNkz9Rp/2jtacZpCTGeRkBjmZQU5mkJMZ5GQGOZlBTmaQu3IK5P2sZybWcw/rn935ZL6K0wxyMoOczCAnM8jJDHIyg5zMICczyMkMcqZALtDNiPA9nGaQkxnkZAY5mUFOZpCTGeRkBjmZQU5mkLtyCuTGDRbdNMaZcx43vqOO0wxyMoOczCAnM8jJDHIyg5zMICczyMkMcodOgZw52dDZ2ecxtQvk097RDqcZ5GQGOZlBTmaQkxnkZAY5mUFOZpCTGeRez/NMPwNbdqYxbOz4Hk4zyMkMcjKDnMwgJzPIyQxyMoOczCAnM8iNTYHs7LfoPrmbqOh+3x3d38p8yb+cZpCTGeRkBjmZQU5mkJMZ5GQGOZlBTmaQu3IXyNRdJN1syo5u3uLMv/ONu0+cZpCTGeRkBjmZQU5mkJMZ5GQGOZlBTmaQu3IKZG1qdmHtzB0kO5+849N2rjjNICczyMkMcjKDnMwgJzPIyQxyMoOczCD3a+qLp3ZjTN1E03m/3+jGOY81pxnkZAY5mUFOZpCTGeRkBjmZQU5mkJMZ5MamQLoNFp2dp5raybEzM9FNY3Tv98wZEacZ5GQGOZlBTmaQkxnkZAY5mUFOZpCTGeTe8EaYM01t7JjaBTI1b2EKBD6UzCAnM8jJDHIyg5zMICczyMkMcjKD3NgUyJnbPnacOcnRfe/73enTcZpBTmaQkxnkZAY5mUFOZpCTGeRkBjmZQW7sRpi1M/+X390Ic+PGjqlZjRtnRJxmkJMZ5GQGOZlBTmaQkxnkZAY5mUFOZpA7dApkbWoLRffJN+7VmNrmcuacx5rTDHIyg5zMICczyMkMcjKDnMwgJzPIyQxyV06B3Kibt5i6L6Zz5s6VHU4zyMkMcjKDnMwgJzPIyQxyMoOczCAnM8iZAvkmU/MH3X0x3azG2pkbStacZpCTGeRkBjmZQU5mkJMZ5GQGOZlBTmaQu3IK5MxbP3acObuwduZbOPOpnGaQkxnkZAY5mUFOZpCTGeRkBjmZQU5mkDt0CuTGqYi1bvtF97PdLTZrZ96Ps8NpBjmZQU5mkJMZ5GQGOZlBTmaQkxnkZAa51/M8088Ab85pBjmZQU5mkJMZ5GQGOZlBTmaQkxnkZAY5mUFOZpCTGeRkBjmZQU5mkJMZ5GQGOZlBTmaQkxnkZAY5mUFOZpCTGeRkBjmZQU5mkJMZ5GQGOZlBTmaQkxnkZAY5mUFOZpCTGeRkBjmZQU5mkPsLju8CISk3xDcAAAAASUVORK5CYII=</Image>
+			<ScaleMode>Uniform</ScaleMode>
+			<BorderWidth>0</BorderWidth>
+			<BorderColor Alpha="255" Blue="0" Green="0" Red="0" />
+			<HorizontalAlignment>Center</HorizontalAlignment>
+			<VerticalAlignment>Center</VerticalAlignment>
+		</ImageObject>
+		<Bounds Height="720" Width="720" X="1978.25242718447" Y="278" />
 	</ObjectInfo>
 </DieCutLabel>
